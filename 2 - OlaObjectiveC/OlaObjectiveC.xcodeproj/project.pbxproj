@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87C8EB371C2373F1007433E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB361C2373F1007433E4 /* main.m */; };
+		87C8EB401C237765007433E4 /* Carro.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB3F1C237765007433E4 /* Carro.m */; };
+		87C8EB431C238646007433E4 /* VelocidadeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB421C238646007433E4 /* VelocidadeException.m */; };
+		87C8EB4A1C23907C007433E4 /* PostoDeGasolina.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB491C23907C007433E4 /* PostoDeGasolina.m */; };
+		87C8EB501C239A16007433E4 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB4F1C239A16007433E4 /* NSString+Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87C8EB311C2373F1007433E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87C8EB331C2373F1007433E4 /* OlaObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OlaObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C8EB361C2373F1007433E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C8EB3E1C237765007433E4 /* Carro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carro.h; sourceTree = "<group>"; };
+		87C8EB3F1C237765007433E4 /* Carro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carro.m; sourceTree = "<group>"; };
+		87C8EB411C238646007433E4 /* VelocidadeException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VelocidadeException.h; sourceTree = "<group>"; };
+		87C8EB421C238646007433E4 /* VelocidadeException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelocidadeException.m; sourceTree = "<group>"; };
+		87C8EB441C238AF7007433E4 /* CombustivelAlcool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelAlcool.h; sourceTree = "<group>"; };
+		87C8EB451C238B72007433E4 /* CombustivelGasolina.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelGasolina.h; sourceTree = "<group>"; };
+		87C8EB461C238B95007433E4 /* CombustivelFlex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelFlex.h; sourceTree = "<group>"; };
+		87C8EB481C23907C007433E4 /* PostoDeGasolina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostoDeGasolina.h; sourceTree = "<group>"; };
+		87C8EB491C23907C007433E4 /* PostoDeGasolina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostoDeGasolina.m; sourceTree = "<group>"; };
+		87C8EB4E1C239A16007433E4 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "../NSString+Utils.h"; sourceTree = "<group>"; };
+		87C8EB4F1C239A16007433E4 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "../NSString+Utils.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C8EB301C2373F1007433E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C8EB2A1C2373F0007433E4 = {
+			isa = PBXGroup;
+			children = (
+				87C8EB351C2373F1007433E4 /* OlaObjectiveC */,
+				87C8EB341C2373F1007433E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C8EB341C2373F1007433E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C8EB331C2373F1007433E4 /* OlaObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C8EB351C2373F1007433E4 /* OlaObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				87C8EB3D1C237706007433E4 /* Classes */,
+				87C8EB361C2373F1007433E4 /* main.m */,
+			);
+			path = OlaObjectiveC;
+			sourceTree = "<group>";
+		};
+		87C8EB3D1C237706007433E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				87C8EB4E1C239A16007433E4 /* NSString+Utils.h */,
+				87C8EB4F1C239A16007433E4 /* NSString+Utils.m */,
+				87C8EB3E1C237765007433E4 /* Carro.h */,
+				87C8EB3F1C237765007433E4 /* Carro.m */,
+				87C8EB411C238646007433E4 /* VelocidadeException.h */,
+				87C8EB421C238646007433E4 /* VelocidadeException.m */,
+				87C8EB441C238AF7007433E4 /* CombustivelAlcool.h */,
+				87C8EB451C238B72007433E4 /* CombustivelGasolina.h */,
+				87C8EB461C238B95007433E4 /* CombustivelFlex.h */,
+				87C8EB481C23907C007433E4 /* PostoDeGasolina.h */,
+				87C8EB491C23907C007433E4 /* PostoDeGasolina.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C8EB321C2373F1007433E4 /* OlaObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C8EB3A1C2373F1007433E4 /* Build configuration list for PBXNativeTarget "OlaObjectiveC" */;
+			buildPhases = (
+				87C8EB2F1C2373F1007433E4 /* Sources */,
+				87C8EB301C2373F1007433E4 /* Frameworks */,
+				87C8EB311C2373F1007433E4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaObjectiveC;
+			productName = OlaObjectiveC;
+			productReference = 87C8EB331C2373F1007433E4 /* OlaObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C8EB2B1C2373F0007433E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "André Ricardo de Souza Guedes";
+				TargetAttributes = {
+					87C8EB321C2373F1007433E4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 87C8EB2E1C2373F0007433E4 /* Build configuration list for PBXProject "OlaObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87C8EB2A1C2373F0007433E4;
+			productRefGroup = 87C8EB341C2373F1007433E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C8EB321C2373F1007433E4 /* OlaObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C8EB2F1C2373F1007433E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C8EB4A1C23907C007433E4 /* PostoDeGasolina.m in Sources */,
+				87C8EB431C238646007433E4 /* VelocidadeException.m in Sources */,
+				87C8EB501C239A16007433E4 /* NSString+Utils.m in Sources */,
+				87C8EB371C2373F1007433E4 /* main.m in Sources */,
+				87C8EB401C237765007433E4 /* Carro.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87C8EB381C2373F1007433E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		87C8EB391C2373F1007433E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		87C8EB3B1C2373F1007433E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87C8EB3C1C2373F1007433E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C8EB2E1C2373F0007433E4 /* Build configuration list for PBXProject "OlaObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8EB381C2373F1007433E4 /* Debug */,
+				87C8EB391C2373F1007433E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C8EB3A1C2373F1007433E4 /* Build configuration list for PBXNativeTarget "OlaObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8EB3B1C2373F1007433E4 /* Debug */,
+				87C8EB3C1C2373F1007433E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C8EB2B1C2373F0007433E4 /* Project object */;
+}

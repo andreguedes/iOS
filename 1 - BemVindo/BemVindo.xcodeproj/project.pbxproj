@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879830B21C284EB5002C67DA /* ferrari_ff.png in Resources */ = {isa = PBXBuildFile; fileRef = 879830B01C284EB5002C67DA /* ferrari_ff.png */; };
+		879830B31C284EB5002C67DA /* mclaren.png in Resources */ = {isa = PBXBuildFile; fileRef = 879830B11C284EB5002C67DA /* mclaren.png */; };
+		879830B71C28537D002C67DA /* MeuSegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879830B51C28537D002C67DA /* MeuSegundoViewController.m */; };
+		879830B81C28537D002C67DA /* MeuSegundoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 879830B61C28537D002C67DA /* MeuSegundoViewController.xib */; };
+		87C8EB5F1C239D8B007433E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB5E1C239D8B007433E4 /* main.m */; };
+		87C8EB621C239D8B007433E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB611C239D8B007433E4 /* AppDelegate.m */; };
+		87C8EB6A1C239D8C007433E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C8EB691C239D8C007433E4 /* Assets.xcassets */; };
+		87C8EB6D1C239D8C007433E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C8EB6B1C239D8C007433E4 /* LaunchScreen.storyboard */; };
+		87C8EB781C239D8C007433E4 /* BemVindoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB771C239D8C007433E4 /* BemVindoTests.m */; };
+		87C8EB831C239D8C007433E4 /* BemVindoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB821C239D8C007433E4 /* BemVindoUITests.m */; };
+		87C8EB931C23A260007433E4 /* MeuPrimeiroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8EB911C23A260007433E4 /* MeuPrimeiroViewController.m */; };
+		87C8EB941C23A260007433E4 /* MeuPrimeiroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C8EB921C23A260007433E4 /* MeuPrimeiroViewController.xib */; };
+		87C8EB961C23A67D007433E4 /* MeuPrimeiroViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C8EB951C23A67D007433E4 /* MeuPrimeiroViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87C8EB741C239D8C007433E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C8EB521C239D8B007433E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C8EB591C239D8B007433E4;
+			remoteInfo = BemVindo;
+		};
+		87C8EB7F1C239D8C007433E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C8EB521C239D8B007433E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C8EB591C239D8B007433E4;
+			remoteInfo = BemVindo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		879830B01C284EB5002C67DA /* ferrari_ff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrari_ff.png; sourceTree = "<group>"; };
+		879830B11C284EB5002C67DA /* mclaren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mclaren.png; sourceTree = "<group>"; };
+		879830B41C28537D002C67DA /* MeuSegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeuSegundoViewController.h; sourceTree = "<group>"; };
+		879830B51C28537D002C67DA /* MeuSegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeuSegundoViewController.m; sourceTree = "<group>"; };
+		879830B61C28537D002C67DA /* MeuSegundoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeuSegundoViewController.xib; sourceTree = "<group>"; };
+		87C8EB5A1C239D8B007433E4 /* BemVindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BemVindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C8EB5E1C239D8B007433E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C8EB601C239D8B007433E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87C8EB611C239D8B007433E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87C8EB691C239D8C007433E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C8EB6C1C239D8C007433E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C8EB6E1C239D8C007433E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C8EB731C239D8C007433E4 /* BemVindoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BemVindoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C8EB771C239D8C007433E4 /* BemVindoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BemVindoTests.m; sourceTree = "<group>"; };
+		87C8EB791C239D8C007433E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C8EB7E1C239D8C007433E4 /* BemVindoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BemVindoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C8EB821C239D8C007433E4 /* BemVindoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BemVindoUITests.m; sourceTree = "<group>"; };
+		87C8EB841C239D8C007433E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C8EB901C23A260007433E4 /* MeuPrimeiroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeuPrimeiroViewController.h; sourceTree = "<group>"; };
+		87C8EB911C23A260007433E4 /* MeuPrimeiroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeuPrimeiroViewController.m; sourceTree = "<group>"; };
+		87C8EB921C23A260007433E4 /* MeuPrimeiroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeuPrimeiroViewController.xib; sourceTree = "<group>"; };
+		87C8EB951C23A67D007433E4 /* MeuPrimeiroViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeuPrimeiroViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C8EB571C239D8B007433E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C8EB701C239D8C007433E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C8EB7B1C239D8C007433E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879830AF1C284E62002C67DA /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				879830B01C284EB5002C67DA /* ferrari_ff.png */,
+				879830B11C284EB5002C67DA /* mclaren.png */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+		87C8EB511C239D8B007433E4 = {
+			isa = PBXGroup;
+			children = (
+				87C8EB5C1C239D8B007433E4 /* BemVindo */,
+				87C8EB761C239D8C007433E4 /* BemVindoTests */,
+				87C8EB811C239D8C007433E4 /* BemVindoUITests */,
+				87C8EB5B1C239D8B007433E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C8EB5B1C239D8B007433E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C8EB5A1C239D8B007433E4 /* BemVindo.app */,
+				87C8EB731C239D8C007433E4 /* BemVindoTests.xctest */,
+				87C8EB7E1C239D8C007433E4 /* BemVindoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C8EB5C1C239D8B007433E4 /* BemVindo */ = {
+			isa = PBXGroup;
+			children = (
+				879830AF1C284E62002C67DA /* Imagens */,
+				87C8EB601C239D8B007433E4 /* AppDelegate.h */,
+				87C8EB611C239D8B007433E4 /* AppDelegate.m */,
+				87C8EB901C23A260007433E4 /* MeuPrimeiroViewController.h */,
+				87C8EB911C23A260007433E4 /* MeuPrimeiroViewController.m */,
+				87C8EB921C23A260007433E4 /* MeuPrimeiroViewController.xib */,
+				879830B41C28537D002C67DA /* MeuSegundoViewController.h */,
+				879830B51C28537D002C67DA /* MeuSegundoViewController.m */,
+				879830B61C28537D002C67DA /* MeuSegundoViewController.xib */,
+				87C8EB951C23A67D007433E4 /* MeuPrimeiroViewController_iPad.xib */,
+				87C8EB691C239D8C007433E4 /* Assets.xcassets */,
+				87C8EB6B1C239D8C007433E4 /* LaunchScreen.storyboard */,
+				87C8EB6E1C239D8C007433E4 /* Info.plist */,
+				87C8EB5D1C239D8B007433E4 /* Supporting Files */,
+			);
+			path = BemVindo;
+			sourceTree = "<group>";
+		};
+		87C8EB5D1C239D8B007433E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C8EB5E1C239D8B007433E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87C8EB761C239D8C007433E4 /* BemVindoTests */ = {
+			isa = PBXGroup;
+			children = (
+				87C8EB771C239D8C007433E4 /* BemVindoTests.m */,
+				87C8EB791C239D8C007433E4 /* Info.plist */,
+			);
+			path = BemVindoTests;
+			sourceTree = "<group>";
+		};
+		87C8EB811C239D8C007433E4 /* BemVindoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87C8EB821C239D8C007433E4 /* BemVindoUITests.m */,
+				87C8EB841C239D8C007433E4 /* Info.plist */,
+			);
+			path = BemVindoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C8EB591C239D8B007433E4 /* BemVindo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C8EB871C239D8C007433E4 /* Build configuration list for PBXNativeTarget "BemVindo" */;
+			buildPhases = (
+				87C8EB561C239D8B007433E4 /* Sources */,
+				87C8EB571C239D8B007433E4 /* Frameworks */,
+				87C8EB581C239D8B007433E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BemVindo;
+			productName = BemVindo;
+			productReference = 87C8EB5A1C239D8B007433E4 /* BemVindo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87C8EB721C239D8C007433E4 /* BemVindoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C8EB8A1C239D8C007433E4 /* Build configuration list for PBXNativeTarget "BemVindoTests" */;
+			buildPhases = (
+				87C8EB6F1C239D8C007433E4 /* Sources */,
+				87C8EB701C239D8C007433E4 /* Frameworks */,
+				87C8EB711C239D8C007433E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C8EB751C239D8C007433E4 /* PBXTargetDependency */,
+			);
+			name = BemVindoTests;
+			productName = BemVindoTests;
+			productReference = 87C8EB731C239D8C007433E4 /* BemVindoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87C8EB7D1C239D8C007433E4 /* BemVindoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C8EB8D1C239D8C007433E4 /* Build configuration list for PBXNativeTarget "BemVindoUITests" */;
+			buildPhases = (
+				87C8EB7A1C239D8C007433E4 /* Sources */,
+				87C8EB7B1C239D8C007433E4 /* Frameworks */,
+				87C8EB7C1C239D8C007433E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C8EB801C239D8C007433E4 /* PBXTargetDependency */,
+			);
+			name = BemVindoUITests;
+			productName = BemVindoUITests;
+			productReference = 87C8EB7E1C239D8C007433E4 /* BemVindoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C8EB521C239D8B007433E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "André Ricardo de Souza Guedes";
+				TargetAttributes = {
+					87C8EB591C239D8B007433E4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					87C8EB721C239D8C007433E4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 87C8EB591C239D8B007433E4;
+					};
+					87C8EB7D1C239D8C007433E4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 87C8EB591C239D8B007433E4;
+					};
+				};
+			};
+			buildConfigurationList = 87C8EB551C239D8B007433E4 /* Build configuration list for PBXProject "BemVindo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C8EB511C239D8B007433E4;
+			productRefGroup = 87C8EB5B1C239D8B007433E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C8EB591C239D8B007433E4 /* BemVindo */,
+				87C8EB721C239D8C007433E4 /* BemVindoTests */,
+				87C8EB7D1C239D8C007433E4 /* BemVindoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C8EB581C239D8B007433E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879830B31C284EB5002C67DA /* mclaren.png in Resources */,
+				879830B21C284EB5002C67DA /* ferrari_ff.png in Resources */,
+				87C8EB6D1C239D8C007433E4 /* LaunchScreen.storyboard in Resources */,
+				87C8EB961C23A67D007433E4 /* MeuPrimeiroViewController_iPad.xib in Resources */,
+				87C8EB941C23A260007433E4 /* MeuPrimeiroViewController.xib in Resources */,
+				87C8EB6A1C239D8C007433E4 /* Assets.xcassets in Resources */,
+				879830B81C28537D002C67DA /* MeuSegundoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C8EB711C239D8C007433E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C8EB7C1C239D8C007433E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C8EB561C239D8B007433E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879830B71C28537D002C67DA /* MeuSegundoViewController.m in Sources */,
+				87C8EB931C23A260007433E4 /* MeuPrimeiroViewController.m in Sources */,
+				87C8EB621C239D8B007433E4 /* AppDelegate.m in Sources */,
+				87C8EB5F1C239D8B007433E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C8EB6F1C239D8C007433E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C8EB781C239D8C007433E4 /* BemVindoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C8EB7A1C239D8C007433E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C8EB831C239D8C007433E4 /* BemVindoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87C8EB751C239D8C007433E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C8EB591C239D8B007433E4 /* BemVindo */;
+			targetProxy = 87C8EB741C239D8C007433E4 /* PBXContainerItemProxy */;
+		};
+		87C8EB801C239D8C007433E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C8EB591C239D8B007433E4 /* BemVindo */;
+			targetProxy = 87C8EB7F1C239D8C007433E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87C8EB6B1C239D8C007433E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C8EB6C1C239D8C007433E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C8EB851C239D8C007433E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C8EB861C239D8C007433E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C8EB881C239D8C007433E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BemVindo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.BemVindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87C8EB891C239D8C007433E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BemVindo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.BemVindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87C8EB8B1C239D8C007433E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BemVindoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.BemVindoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BemVindo.app/BemVindo";
+			};
+			name = Debug;
+		};
+		87C8EB8C1C239D8C007433E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BemVindoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.BemVindoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BemVindo.app/BemVindo";
+			};
+			name = Release;
+		};
+		87C8EB8E1C239D8C007433E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BemVindoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.BemVindoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BemVindo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		87C8EB8F1C239D8C007433E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BemVindoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.BemVindoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BemVindo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C8EB551C239D8B007433E4 /* Build configuration list for PBXProject "BemVindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8EB851C239D8C007433E4 /* Debug */,
+				87C8EB861C239D8C007433E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C8EB871C239D8C007433E4 /* Build configuration list for PBXNativeTarget "BemVindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8EB881C239D8C007433E4 /* Debug */,
+				87C8EB891C239D8C007433E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C8EB8A1C239D8C007433E4 /* Build configuration list for PBXNativeTarget "BemVindoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8EB8B1C239D8C007433E4 /* Debug */,
+				87C8EB8C1C239D8C007433E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C8EB8D1C239D8C007433E4 /* Build configuration list for PBXNativeTarget "BemVindoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8EB8E1C239D8C007433E4 /* Debug */,
+				87C8EB8F1C239D8C007433E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C8EB521C239D8B007433E4 /* Project object */;
+}
