@@ -15,6 +15,8 @@
 - (void)viewDidLoad {
     meuPrimeiroLabel.text = @"Tela iniciada com sucesso!";
     
+    self.title = @"Primeiro Controller";
+    
     [super viewDidLoad];
     
     meuPrimeiroTextField.delegate = self;
@@ -22,6 +24,13 @@
     
     UIImage *image = [UIImage imageNamed:@"ferrari_ff.png"];
     imageView.image = image;
+    
+    UIBarButtonItem *btVoltar = [[UIBarButtonItem alloc] initWithTitle:@"Voltar" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = btVoltar;
+    
+    self.navigationController.navigationBar.barTintColor = [UIColor brownColor];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.translucent = NO;
 }
 
 - (void)olaMundo:(id)sender {
@@ -42,7 +51,9 @@
     MeuSegundoViewController *segundo = [[MeuSegundoViewController alloc] init];
     segundo.msg = s;
     segundo.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-    [self presentViewController:segundo animated:YES completion:nil];
+    //[self presentViewController:segundo animated:YES completion:nil];
+    
+    [self.navigationController pushViewController:segundo animated:YES];
 }
 
 - (void)sliderValueChanged:(id)sender {

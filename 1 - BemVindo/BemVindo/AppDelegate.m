@@ -20,13 +20,16 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
+    MeuPrimeiroViewController *vc = nil;
+    
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        MeuPrimeiroViewController *vc = [[MeuPrimeiroViewController alloc] initWithNibName:@"MeuPrimeiroViewController" bundle:nil];
-        self.window.rootViewController = vc;
+        vc = [[MeuPrimeiroViewController alloc] initWithNibName:@"MeuPrimeiroViewController" bundle:nil];
     } else {
-        MeuPrimeiroViewController *vc = [[MeuPrimeiroViewController alloc] initWithNibName:@"MeuPrimeiroViewController_iPad" bundle:nil];
-        self.window.rootViewController = vc;
+        vc = [[MeuPrimeiroViewController alloc] initWithNibName:@"MeuPrimeiroViewController_iPad" bundle:nil];
     }
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    //nav.navigationBar.hidden = YES;
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
     return YES;

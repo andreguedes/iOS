@@ -15,12 +15,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"Segundo Controller";
+    
     label.text = msg;
-}
-
-#pragma mark - eventos
-- (void)voltar {
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

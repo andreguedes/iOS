@@ -14,6 +14,4 @@
 
 @property (nonatomic, strong) NSString *msg;
 
-- (IBAction)voltar;
-
 @end
