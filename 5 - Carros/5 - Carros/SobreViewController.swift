@@ -22,8 +22,8 @@ class SobreViewController: UIViewController, UIWebViewDelegate {
         
         self.progress.startAnimating()
         
-        var url = NSURL(string: URL_SOBRE)!
-        var request = NSURLRequest(URL: url)
+        let url = NSURL(string: URL_SOBRE)!
+        let request = NSURLRequest(URL: url)
         
         self.webView.loadRequest(request)
     }

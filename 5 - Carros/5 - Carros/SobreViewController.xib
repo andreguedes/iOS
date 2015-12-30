@@ -33,12 +33,16 @@
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="YRf-u1-ru2" secondAttribute="bottom" id="1So-M4-ZqX"/>
-                <constraint firstItem="YRf-u1-ru2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LYu-Wn-1RF"/>
-                <constraint firstItem="YRf-u1-ru2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UO2-8d-mNG"/>
-                <constraint firstItem="Hco-aA-2wX" firstAttribute="centerY" secondItem="YRf-u1-ru2" secondAttribute="centerY" id="gz7-P1-2J7"/>
-                <constraint firstAttribute="trailing" secondItem="YRf-u1-ru2" secondAttribute="trailing" id="iZA-sX-Lkt"/>
-                <constraint firstItem="Hco-aA-2wX" firstAttribute="centerX" secondItem="YRf-u1-ru2" secondAttribute="centerX" id="nkx-cl-ofA"/>
+                <constraint firstItem="YRf-u1-ru2" firstAttribute="centerX" secondItem="Hco-aA-2wX" secondAttribute="centerX" id="4W2-Sf-JSo"/>
+                <constraint firstAttribute="bottom" secondItem="YRf-u1-ru2" secondAttribute="bottom" id="AqB-bD-54N"/>
+                <constraint firstItem="YRf-u1-ru2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BUP-hn-cLI"/>
+                <constraint firstItem="YRf-u1-ru2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ETu-wh-Q0E"/>
+                <constraint firstItem="YRf-u1-ru2" firstAttribute="centerY" secondItem="Hco-aA-2wX" secondAttribute="centerY" id="Qm6-8N-tC1"/>
+                <constraint firstAttribute="trailing" secondItem="YRf-u1-ru2" secondAttribute="trailing" id="eNb-9P-sV3"/>
+                <constraint firstItem="YRf-u1-ru2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="oWs-Vo-xWR"/>
+                <constraint firstItem="YRf-u1-ru2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pne-gW-iBP"/>
+                <constraint firstAttribute="bottom" secondItem="YRf-u1-ru2" secondAttribute="bottom" id="tzE-KQ-hIe"/>
+                <constraint firstAttribute="trailing" secondItem="YRf-u1-ru2" secondAttribute="trailing" id="xY2-xt-bX2"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>

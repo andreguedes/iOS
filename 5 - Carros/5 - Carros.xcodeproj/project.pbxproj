@@ -28,6 +28,11 @@
 		875D37D81C320519005A0969 /* DetalhesCarroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D37D61C320519005A0969 /* DetalhesCarroViewController.xib */; };
 		875D37DB1C320526005A0969 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D37D91C320526005A0969 /* SobreViewController.swift */; };
 		875D37DC1C320526005A0969 /* SobreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D37DA1C320526005A0969 /* SobreViewController.xib */; };
+		87BA41041C335B2B00355655 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41031C335B2B00355655 /* Alerta.swift */; };
+		87BA41061C335CF700355655 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41051C335CF700355655 /* Carro.swift */; };
+		87BA41081C335D9400355655 /* CarroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41071C335D9400355655 /* CarroService.swift */; };
+		87BA410B1C33653C00355655 /* CarroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA410A1C33653C00355655 /* CarroCell.swift */; };
+		87BA410D1C3365CC00355655 /* CarroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BA410C1C3365CC00355655 /* CarroCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		875D37D61C320519005A0969 /* DetalhesCarroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalhesCarroViewController.xib; sourceTree = "<group>"; };
 		875D37D91C320526005A0969 /* SobreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
 		875D37DA1C320526005A0969 /* SobreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobreViewController.xib; sourceTree = "<group>"; };
+		87BA41031C335B2B00355655 /* Alerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		87BA41051C335CF700355655 /* Carro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		87BA41071C335D9400355655 /* CarroService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarroService.swift; sourceTree = "<group>"; };
+		87BA410A1C33653C00355655 /* CarroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarroCell.swift; sourceTree = "<group>"; };
+		87BA410C1C3365CC00355655 /* CarroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarroCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +154,8 @@
 			children = (
 				875D37DE1C320560005A0969 /* ListaCarros */,
 				875D37DF1C32056B005A0969 /* Sobre */,
+				87BA41031C335B2B00355655 /* Alerta.swift */,
+				87BA41091C33652A00355655 /* Modelo */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -151,6 +163,7 @@
 		875D37DE1C320560005A0969 /* ListaCarros */ = {
 			isa = PBXGroup;
 			children = (
+				87BA410E1C33660B00355655 /* Cell */,
 				875D37D11C3204D7005A0969 /* ListaCarrosViewController.swift */,
 				875D37D21C3204D7005A0969 /* ListaCarrosViewController.xib */,
 				875D37D51C320519005A0969 /* DetalhesCarroViewController.swift */,
@@ -166,6 +179,24 @@
 				875D37DA1C320526005A0969 /* SobreViewController.xib */,
 			);
 			name = Sobre;
+			sourceTree = "<group>";
+		};
+		87BA41091C33652A00355655 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				87BA41051C335CF700355655 /* Carro.swift */,
+				87BA41071C335D9400355655 /* CarroService.swift */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
+		87BA410E1C33660B00355655 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				87BA410A1C33653C00355655 /* CarroCell.swift */,
+				87BA410C1C3365CC00355655 /* CarroCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +264,7 @@
 				875D37DC1C320526005A0969 /* SobreViewController.xib in Resources */,
 				875D37CB1C320168005A0969 /* carros_classicos.json in Resources */,
 				875D37CC1C320168005A0969 /* carros_esportivos.json in Resources */,
+				87BA410D1C3365CC00355655 /* CarroCell.xib in Resources */,
 				875D37C51C320168005A0969 /* Images.xcassets in Resources */,
 				875D37D41C3204D7005A0969 /* ListaCarrosViewController.xib in Resources */,
 				875D37C81C320168005A0969 /* tab_carros@2x.png in Resources */,
@@ -254,8 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				875D37D71C320519005A0969 /* DetalhesCarroViewController.swift in Sources */,
+				87BA410B1C33653C00355655 /* CarroCell.swift in Sources */,
+				87BA41061C335CF700355655 /* Carro.swift in Sources */,
+				87BA41041C335B2B00355655 /* Alerta.swift in Sources */,
 				875D37D31C3204D7005A0969 /* ListaCarrosViewController.swift in Sources */,
 				875D37DB1C320526005A0969 /* SobreViewController.swift in Sources */,
+				87BA41081C335D9400355655 /* CarroService.swift in Sources */,
 				875D37A21C32009F005A0969 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +434,7 @@
 				875D37B21C3200A0005A0969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

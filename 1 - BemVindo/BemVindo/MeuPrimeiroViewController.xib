@@ -19,14 +19,6 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPA-hu-h6q">
-                    <rect key="frame" x="144" y="245" width="30" height="30"/>
-                    <animations/>
-                    <state key="normal" title="Olá"/>
-                    <connections>
-                        <action selector="olaMundo:" destination="-1" eventType="touchUpInside" id="z5C-3s-rKo"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cih-RP-sTG">
                     <rect key="frame" x="15" y="79" width="46" height="21"/>
                     <animations/>
@@ -34,7 +26,7 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pcl-7z-wPk">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pcl-7z-wPk">
                     <rect key="frame" x="15" y="108" width="291" height="30"/>
                     <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -50,7 +42,7 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wX5-4a-yEV">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wX5-4a-yEV">
                     <rect key="frame" x="15" y="192" width="291" height="30"/>
                     <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -59,30 +51,52 @@
                         <outlet property="delegate" destination="-1" id="vd3-r2-Zca"/>
                     </connections>
                 </textField>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iPhone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySW-Yt-cpV">
-                    <rect key="frame" x="16" y="291" width="290" height="21"/>
-                    <animations/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mclaren.png" translatesAutoresizingMaskIntoConstraints="NO" id="2tn-tJ-wLa">
-                    <rect key="frame" x="15" y="341" width="290" height="155"/>
-                    <animations/>
-                </imageView>
-                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xHX-o6-cmK">
+                <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xHX-o6-cmK">
                     <rect key="frame" x="12" y="530" width="295" height="31"/>
                     <animations/>
                     <connections>
                         <action selector="sliderValueChanged:" destination="-1" eventType="valueChanged" id="ySC-Qb-kKc"/>
                     </connections>
                 </slider>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPA-hu-h6q">
+                    <rect key="frame" x="144" y="245" width="30" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Olá"/>
+                    <connections>
+                        <action selector="olaMundo:" destination="-1" eventType="touchUpInside" id="z5C-3s-rKo"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="iPhone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySW-Yt-cpV">
+                    <rect key="frame" x="16" y="291" width="290" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="mclaren.png" translatesAutoresizingMaskIntoConstraints="NO" id="2tn-tJ-wLa">
+                    <rect key="frame" x="15" y="341" width="290" height="155"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="155" id="c2g-Zk-al1"/>
+                        <constraint firstAttribute="width" constant="290" id="gt2-TF-WkT"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="TPA-hu-h6q" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="RJN-l5-CZZ"/>
-                <constraint firstItem="TPA-hu-h6q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rUs-gc-fWZ"/>
+                <constraint firstItem="ySW-Yt-cpV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1vg-56-bxi"/>
+                <constraint firstItem="TPA-hu-h6q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="144" id="2o7-d6-9EH"/>
+                <constraint firstItem="TPA-hu-h6q" firstAttribute="centerX" secondItem="xHX-o6-cmK" secondAttribute="centerX" id="8OA-YE-DbQ"/>
+                <constraint firstItem="2tn-tJ-wLa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BPn-Si-3pO"/>
+                <constraint firstAttribute="trailing" secondItem="Pcl-7z-wPk" secondAttribute="trailing" constant="15" id="IPa-sD-srX"/>
+                <constraint firstItem="TPA-hu-h6q" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="245" id="JT8-Ar-Noe"/>
+                <constraint firstItem="TPA-hu-h6q" firstAttribute="top" secondItem="wX5-4a-yEV" secondAttribute="bottom" constant="23" id="Jgc-fe-DGp"/>
+                <constraint firstItem="ySW-Yt-cpV" firstAttribute="top" secondItem="TPA-hu-h6q" secondAttribute="bottom" constant="16" id="NLZ-GF-2Ms"/>
+                <constraint firstItem="Pcl-7z-wPk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="OsP-Ou-qxa"/>
+                <constraint firstAttribute="trailing" secondItem="wX5-4a-yEV" secondAttribute="trailing" constant="15" id="hBT-11-eyp"/>
+                <constraint firstItem="wX5-4a-yEV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="ufS-fe-hIe"/>
+                <constraint firstItem="TPA-hu-h6q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vcC-D2-HNG"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
