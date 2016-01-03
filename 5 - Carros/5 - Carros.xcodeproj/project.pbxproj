@@ -28,11 +28,15 @@
 		875D37D81C320519005A0969 /* DetalhesCarroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D37D61C320519005A0969 /* DetalhesCarroViewController.xib */; };
 		875D37DB1C320526005A0969 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D37D91C320526005A0969 /* SobreViewController.swift */; };
 		875D37DC1C320526005A0969 /* SobreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D37DA1C320526005A0969 /* SobreViewController.xib */; };
+		8786BA5B1C39D862005B67A9 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8786BA5A1C39D862005B67A9 /* SMXMLDocument.m */; };
 		87BA41041C335B2B00355655 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41031C335B2B00355655 /* Alerta.swift */; };
 		87BA41061C335CF700355655 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41051C335CF700355655 /* Carro.swift */; };
 		87BA41081C335D9400355655 /* CarroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41071C335D9400355655 /* CarroService.swift */; };
 		87BA410B1C33653C00355655 /* CarroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA410A1C33653C00355655 /* CarroCell.swift */; };
 		87BA410D1C3365CC00355655 /* CarroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BA410C1C3365CC00355655 /* CarroCell.xib */; };
+		87C12FC81C34BA3800235804 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C12FC71C34BA3800235804 /* MyNavigationController.swift */; };
+		87C12FCA1C34BAFB00235804 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C12FC91C34BAFB00235804 /* MyTabBarController.swift */; };
+		87C12FCD1C34BE5300235804 /* XMLCarroParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C12FCC1C34BE5300235804 /* XMLCarroParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +63,17 @@
 		875D37D61C320519005A0969 /* DetalhesCarroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalhesCarroViewController.xib; sourceTree = "<group>"; };
 		875D37D91C320526005A0969 /* SobreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
 		875D37DA1C320526005A0969 /* SobreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobreViewController.xib; sourceTree = "<group>"; };
+		8786BA581C39D861005B67A9 /* 5 - Carros-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5 - Carros-Bridging-Header.h"; sourceTree = "<group>"; };
+		8786BA591C39D862005B67A9 /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		8786BA5A1C39D862005B67A9 /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
 		87BA41031C335B2B00355655 /* Alerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
 		87BA41051C335CF700355655 /* Carro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
 		87BA41071C335D9400355655 /* CarroService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarroService.swift; sourceTree = "<group>"; };
 		87BA410A1C33653C00355655 /* CarroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarroCell.swift; sourceTree = "<group>"; };
 		87BA410C1C3365CC00355655 /* CarroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarroCell.xib; sourceTree = "<group>"; };
+		87C12FC71C34BA3800235804 /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		87C12FC91C34BAFB00235804 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		87C12FCC1C34BE5300235804 /* XMLCarroParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLCarroParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +162,9 @@
 		875D37DD1C320547005A0969 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				87C12FCB1C34BE3600235804 /* Uteis */,
 				875D37DE1C320560005A0969 /* ListaCarros */,
 				875D37DF1C32056B005A0969 /* Sobre */,
-				87BA41031C335B2B00355655 /* Alerta.swift */,
 				87BA41091C33652A00355655 /* Modelo */,
 			);
 			name = Classes;
@@ -168,6 +178,8 @@
 				875D37D21C3204D7005A0969 /* ListaCarrosViewController.xib */,
 				875D37D51C320519005A0969 /* DetalhesCarroViewController.swift */,
 				875D37D61C320519005A0969 /* DetalhesCarroViewController.xib */,
+				87C12FC71C34BA3800235804 /* MyNavigationController.swift */,
+				87C12FC91C34BAFB00235804 /* MyTabBarController.swift */,
 			);
 			name = ListaCarros;
 			sourceTree = "<group>";
@@ -197,6 +209,18 @@
 				87BA410C1C3365CC00355655 /* CarroCell.xib */,
 			);
 			name = Cell;
+			sourceTree = "<group>";
+		};
+		87C12FCB1C34BE3600235804 /* Uteis */ = {
+			isa = PBXGroup;
+			children = (
+				8786BA591C39D862005B67A9 /* SMXMLDocument.h */,
+				8786BA5A1C39D862005B67A9 /* SMXMLDocument.m */,
+				87BA41031C335B2B00355655 /* Alerta.swift */,
+				87C12FCC1C34BE5300235804 /* XMLCarroParser.swift */,
+				8786BA581C39D861005B67A9 /* 5 - Carros-Bridging-Header.h */,
+			);
+			name = Uteis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +312,14 @@
 				875D37D71C320519005A0969 /* DetalhesCarroViewController.swift in Sources */,
 				87BA410B1C33653C00355655 /* CarroCell.swift in Sources */,
 				87BA41061C335CF700355655 /* Carro.swift in Sources */,
+				87C12FC81C34BA3800235804 /* MyNavigationController.swift in Sources */,
+				87C12FCA1C34BAFB00235804 /* MyTabBarController.swift in Sources */,
+				87C12FCD1C34BE5300235804 /* XMLCarroParser.swift in Sources */,
 				87BA41041C335B2B00355655 /* Alerta.swift in Sources */,
 				875D37D31C3204D7005A0969 /* ListaCarrosViewController.swift in Sources */,
 				875D37DB1C320526005A0969 /* SobreViewController.swift in Sources */,
 				87BA41081C335D9400355655 /* CarroService.swift in Sources */,
+				8786BA5B1C39D862005B67A9 /* SMXMLDocument.m in Sources */,
 				875D37A21C32009F005A0969 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "5 - Carros/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andreguedes.----Carros";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5 - Carros/5 - Carros-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +439,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "5 - Carros/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andreguedes.----Carros";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5 - Carros/5 - Carros-Bridging-Header.h";
 			};
 			name = Release;
 		};

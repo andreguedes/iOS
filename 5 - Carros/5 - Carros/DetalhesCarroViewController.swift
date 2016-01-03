@@ -22,7 +22,8 @@ class DetalhesCarroViewController: UIViewController {
             self.title = c.nome
             self.tDesc.text = c.desc
             
-            let img = UIImage(named: c.url_foto)
+            let data = NSData(contentsOfURL: NSURL(string: c.url_foto)!)!
+            let img = UIImage(data: data)
             self.img.image = img
         }
     }

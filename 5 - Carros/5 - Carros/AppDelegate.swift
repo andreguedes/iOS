@@ -23,14 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let listaController = ListaCarrosViewController(nibName:"ListaCarrosViewController", bundle: nil)
         let sobreController = SobreViewController(nibName:"SobreViewController", bundle: nil)
         
-        let nav1 = UINavigationController()
-        let nav2 = UINavigationController()
+        let nav1 = MyNavigationController()
+        let nav2 = MyNavigationController()
         
         nav1.pushViewController(listaController, animated: false)
         nav2.pushViewController(sobreController, animated: false)
         
         //Cria a TabBar
-        let tabBarController = UITabBarController()
+        let tabBarController = MyTabBarController()
         tabBarController.viewControllers = [nav1, nav2]
         
         nav1.tabBarItem.title = "Carros"
