@@ -11,7 +11,7 @@ import UIKit
 class Alerta {
     
     class func alerta(msg:String, viewController:UIViewController) {
-        var alert = UIAlertController(title: "Alerta", message: msg, preferredStyle: UIAlertControllerStyle.Alert)
+        let alert = UIAlertController(title: "Alerta", message: msg, preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         viewController.presentViewController(alert, animated: true, completion: nil)
     }

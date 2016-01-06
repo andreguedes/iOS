@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListaCarrosViewController" customModule="____Carros" customModuleProvider="target">
             <connections>
+                <outlet property="progress" destination="CNg-op-awI" id="t3d-db-YHt"/>
                 <outlet property="tableView" destination="ivO-wS-Ihl" id="bPZ-JL-tLh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -17,7 +18,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ivO-wS-Ihl">
-                    <rect key="frame" x="0.0" y="99" width="320" height="381"/>
+                    <rect key="frame" x="0.0" y="99" width="320" height="332"/>
                     <animations/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
@@ -37,16 +38,21 @@
                         <action selector="alterarTipo:" destination="-1" eventType="valueChanged" id="DIC-n5-uBl"/>
                     </connections>
                 </segmentedControl>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="CNg-op-awI">
+                    <rect key="frame" x="150" y="230" width="20" height="20"/>
+                    <animations/>
+                </activityIndicatorView>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="cbd-bk-ZWX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="68" id="0RV-AM-kPw"/>
-                <constraint firstItem="ivO-wS-Ihl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Q4q-qD-8EL"/>
+                <constraint firstItem="ivO-wS-Ihl" firstAttribute="top" secondItem="cbd-bk-ZWX" secondAttribute="bottom" constant="3" id="4Pd-PV-upp"/>
+                <constraint firstItem="ivO-wS-Ihl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EI9-JB-XBG"/>
+                <constraint firstAttribute="bottom" secondItem="ivO-wS-Ihl" secondAttribute="bottom" constant="49" id="HTW-70-sVr"/>
+                <constraint firstItem="ivO-wS-Ihl" firstAttribute="centerX" secondItem="CNg-op-awI" secondAttribute="centerX" id="PED-Bg-HtX"/>
                 <constraint firstItem="cbd-bk-ZWX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eRS-Dq-D2D"/>
-                <constraint firstItem="ivO-wS-Ihl" firstAttribute="top" secondItem="cbd-bk-ZWX" secondAttribute="bottom" constant="3" id="gND-DL-Ag6"/>
-                <constraint firstAttribute="bottom" secondItem="ivO-wS-Ihl" secondAttribute="bottom" id="gy7-6a-CiC"/>
-                <constraint firstItem="cbd-bk-ZWX" firstAttribute="centerX" secondItem="ivO-wS-Ihl" secondAttribute="centerX" id="v3T-6O-P3C"/>
+                <constraint firstItem="ivO-wS-Ihl" firstAttribute="centerX" secondItem="cbd-bk-ZWX" secondAttribute="centerX" id="mgJ-Jq-GVt"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>

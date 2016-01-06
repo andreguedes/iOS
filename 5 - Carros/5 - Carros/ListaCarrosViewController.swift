@@ -11,6 +11,7 @@ import UIKit
 class ListaCarrosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet var tableView : UITableView!
+    @IBOutlet var progress : UIActivityIndicatorView!
     
     var carros : Array<Carro> = []
     
@@ -33,6 +34,9 @@ class ListaCarrosViewController: UIViewController, UITableViewDataSource, UITabl
         
         let xib = UINib(nibName: "CarroCell", bundle: nil)
         self.tableView.registerNib(xib, forCellReuseIdentifier: "cell")
+        
+        let btAtualizar = UIBarButtonItem(title: "Atualizar", style: UIBarButtonItemStyle.Plain, target: self, action: "atualizar")
+        self.navigationItem.rightBarButtonItem = btAtualizar
         
         self.buscarCarros()
     }
@@ -57,9 +61,27 @@ class ListaCarrosViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func buscarCarros() {
-        self.carros = CarroService.getCarrosByTipoFromFile(tipo)
+        progress.startAnimating()
         
-        self.tableView.reloadData()
+        let funcaoRetorno = {(carros: Array<Carro>, error: NSError!) in
+            if (error != nil) {
+                Alerta.alerta("Erro: " + error.localizedDescription, viewController: self)
+            } else {
+                self.carros = carros
+                
+                self.tableView.reloadData()
+                self.progress.stopAnimating()
+            }
+        }
+        
+        CarroService.getCarrosByTipo(tipo, callback: funcaoRetorno)
+        
+        //self.carros = CarroService.getCarrosByTipoFromFile(tipo)
+        //self.tableView.reloadData()
+    }
+    
+    func atualizar() {
+        buscarCarros()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -82,8 +104,10 @@ class ListaCarrosViewController: UIViewController, UITableViewDataSource, UITabl
         cell.cellNome.text = carro.nome
         cell.cellDesc.text = carro.desc
         
-        let data = NSData(contentsOfURL: NSURL(string: carro.url_foto)!)!
-        cell.cellImg.image = UIImage(data: data)
+        //let data = NSData(contentsOfURL: NSURL(string: carro.url_foto)!)!
+        //cell.cellImg.image = UIImage(data: data)
+        
+        cell.cellImg.setUrl(carro.url_foto)
         
         return cell
     }

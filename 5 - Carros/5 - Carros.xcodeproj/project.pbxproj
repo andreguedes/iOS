@@ -28,6 +28,8 @@
 		875D37D81C320519005A0969 /* DetalhesCarroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D37D61C320519005A0969 /* DetalhesCarroViewController.xib */; };
 		875D37DB1C320526005A0969 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D37D91C320526005A0969 /* SobreViewController.swift */; };
 		875D37DC1C320526005A0969 /* SobreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D37DA1C320526005A0969 /* SobreViewController.xib */; };
+		878373041C3CA01F00F68C8C /* DownloadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878373031C3CA01F00F68C8C /* DownloadImageView.swift */; };
+		878373061C3CA05500F68C8C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878373051C3CA05500F68C8C /* StringUtils.swift */; };
 		8786BA5B1C39D862005B67A9 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8786BA5A1C39D862005B67A9 /* SMXMLDocument.m */; };
 		87BA41041C335B2B00355655 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41031C335B2B00355655 /* Alerta.swift */; };
 		87BA41061C335CF700355655 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA41051C335CF700355655 /* Carro.swift */; };
@@ -63,6 +65,8 @@
 		875D37D61C320519005A0969 /* DetalhesCarroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalhesCarroViewController.xib; sourceTree = "<group>"; };
 		875D37D91C320526005A0969 /* SobreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
 		875D37DA1C320526005A0969 /* SobreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobreViewController.xib; sourceTree = "<group>"; };
+		878373031C3CA01F00F68C8C /* DownloadImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageView.swift; sourceTree = "<group>"; };
+		878373051C3CA05500F68C8C /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		8786BA581C39D861005B67A9 /* 5 - Carros-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5 - Carros-Bridging-Header.h"; sourceTree = "<group>"; };
 		8786BA591C39D862005B67A9 /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
 		8786BA5A1C39D862005B67A9 /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 		87C12FCB1C34BE3600235804 /* Uteis */ = {
 			isa = PBXGroup;
 			children = (
+				878373051C3CA05500F68C8C /* StringUtils.swift */,
+				878373031C3CA01F00F68C8C /* DownloadImageView.swift */,
 				8786BA591C39D862005B67A9 /* SMXMLDocument.h */,
 				8786BA5A1C39D862005B67A9 /* SMXMLDocument.m */,
 				87BA41031C335B2B00355655 /* Alerta.swift */,
@@ -309,11 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878373041C3CA01F00F68C8C /* DownloadImageView.swift in Sources */,
 				875D37D71C320519005A0969 /* DetalhesCarroViewController.swift in Sources */,
 				87BA410B1C33653C00355655 /* CarroCell.swift in Sources */,
 				87BA41061C335CF700355655 /* Carro.swift in Sources */,
 				87C12FC81C34BA3800235804 /* MyNavigationController.swift in Sources */,
 				87C12FCA1C34BAFB00235804 /* MyTabBarController.swift in Sources */,
+				878373061C3CA05500F68C8C /* StringUtils.swift in Sources */,
 				87C12FCD1C34BE5300235804 /* XMLCarroParser.swift in Sources */,
 				87BA41041C335B2B00355655 /* Alerta.swift in Sources */,
 				875D37D31C3204D7005A0969 /* ListaCarrosViewController.swift in Sources */,
