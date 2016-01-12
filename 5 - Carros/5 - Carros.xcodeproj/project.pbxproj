@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		875417641C447D6F00EFC70B /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875417631C447D6F00EFC70B /* Prefs.swift */; };
 		875D37A21C32009F005A0969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D37A11C32009F005A0969 /* AppDelegate.swift */; };
 		875D37AC1C3200A0005A0969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D37AA1C3200A0005A0969 /* LaunchScreen.storyboard */; };
 		875D37C41C320168005A0969 /* ferrari_ff.png in Resources */ = {isa = PBXBuildFile; fileRef = 875D37B51C320168005A0969 /* ferrari_ff.png */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		875417631C447D6F00EFC70B /* Prefs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
 		875D379E1C32009F005A0969 /* 5 - Carros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5 - Carros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875D37A11C32009F005A0969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875D37AB1C3200A0005A0969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				87BA41031C335B2B00355655 /* Alerta.swift */,
 				87C12FCC1C34BE5300235804 /* XMLCarroParser.swift */,
 				8786BA581C39D861005B67A9 /* 5 - Carros-Bridging-Header.h */,
+				875417631C447D6F00EFC70B /* Prefs.swift */,
 			);
 			name = Uteis;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				875D37D31C3204D7005A0969 /* ListaCarrosViewController.swift in Sources */,
 				875D37DB1C320526005A0969 /* SobreViewController.swift in Sources */,
 				87BA41081C335D9400355655 /* CarroService.swift in Sources */,
+				875417641C447D6F00EFC70B /* Prefs.swift in Sources */,
 				8786BA5B1C39D862005B67A9 /* SMXMLDocument.m in Sources */,
 				875D37A21C32009F005A0969 /* AppDelegate.swift in Sources */,
 			);

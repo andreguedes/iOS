@@ -12,6 +12,7 @@ class ListaCarrosViewController: UIViewController, UITableViewDataSource, UITabl
 
     @IBOutlet var tableView : UITableView!
     @IBOutlet var progress : UIActivityIndicatorView!
+    @IBOutlet var segmentControl : UISegmentedControl!
     
     var carros : Array<Carro> = []
     
@@ -39,6 +40,14 @@ class ListaCarrosViewController: UIViewController, UITableViewDataSource, UITabl
         self.navigationItem.rightBarButtonItem = btAtualizar
         
         self.buscarCarros()
+        
+        let idx = Prefs.getInt("tipoIdx")
+        let s = Prefs.getString("tipoString")
+        if (s != nil) {
+            self.tipo = s
+        }
+        
+        self.segmentControl.selectedSegmentIndex = idx
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,6 +65,9 @@ class ListaCarrosViewController: UIViewController, UITableViewDataSource, UITabl
         default:
             self.tipo = "luxo"
         }
+        
+        Prefs.setInt(idx, chave: "tipoIdx")
+        Prefs.setString(tipo, chave: "tipoString")
         
         self.buscarCarros()
     }

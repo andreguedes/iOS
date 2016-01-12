@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListaCarrosViewController" customModule="____Carros" customModuleProvider="target">
             <connections>
                 <outlet property="progress" destination="CNg-op-awI" id="t3d-db-YHt"/>
+                <outlet property="segmentControl" destination="cbd-bk-ZWX" id="pPW-mq-MQ4"/>
                 <outlet property="tableView" destination="ivO-wS-Ihl" id="bPZ-JL-tLh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
