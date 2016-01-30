@@ -10,6 +10,7 @@ import Foundation
 
 class Carro {
     
+    var id : Int = 0
     var nome : String = ""
     var desc : String = ""
     var url_foto : String = ""
@@ -17,5 +18,6 @@ class Carro {
     var url_video : String = ""
     var latitude : String = ""
     var longitude : String = ""
+    var tipo : String = ""
     
 }
