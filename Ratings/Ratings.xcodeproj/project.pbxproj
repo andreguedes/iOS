@@ -12,6 +12,7 @@
 		6555420C1CC7086C00A0BD7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6555420A1CC7086C00A0BD7D /* Main.storyboard */; };
 		6555420E1CC7086C00A0BD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6555420D1CC7086C00A0BD7D /* Assets.xcassets */; };
 		655542111CC7086C00A0BD7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6555420F1CC7086C00A0BD7D /* LaunchScreen.storyboard */; };
+		655542191CC7110200A0BD7D /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 655542181CC7110200A0BD7D /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6555420D1CC7086C00A0BD7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655542101CC7086C00A0BD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		655542121CC7086C00A0BD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655542181CC7110200A0BD7D /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				655542081CC7086C00A0BD7D /* ViewController.swift */,
 				6555420A1CC7086C00A0BD7D /* Main.storyboard */,
 				6555420D1CC7086C00A0BD7D /* Assets.xcassets */,
+				655542181CC7110200A0BD7D /* Images */,
 				6555420F1CC7086C00A0BD7D /* LaunchScreen.storyboard */,
 				655542121CC7086C00A0BD7D /* Info.plist */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655542191CC7110200A0BD7D /* Images in Resources */,
 				655542111CC7086C00A0BD7D /* LaunchScreen.storyboard in Resources */,
 				6555420E1CC7086C00A0BD7D /* Assets.xcassets in Resources */,
 				6555420C1CC7086C00A0BD7D /* Main.storyboard in Resources */,
@@ -251,7 +255,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ratings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.londoneyeschool.Ratings;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -262,7 +266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ratings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.londoneyeschool.Ratings;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andreguedes.Ratings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
