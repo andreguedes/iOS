@@ -16,6 +16,7 @@
 		6555421B1CC73D5900A0BD7D /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555421A1CC73D5900A0BD7D /* PlayersViewController.swift */; };
 		6555421D1CC73DA900A0BD7D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555421C1CC73DA900A0BD7D /* Player.swift */; };
 		6555421F1CC73DD900A0BD7D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555421E1CC73DD900A0BD7D /* SampleData.swift */; };
+		65A0C3871CC94A0D003C3EAB /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0C3861CC94A0D003C3EAB /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6555421A1CC73D5900A0BD7D /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		6555421C1CC73DA900A0BD7D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		6555421E1CC73DD900A0BD7D /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		65A0C3861CC94A0D003C3EAB /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				6555421A1CC73D5900A0BD7D /* PlayersViewController.swift */,
 				6555421C1CC73DA900A0BD7D /* Player.swift */,
 				6555421E1CC73DD900A0BD7D /* SampleData.swift */,
+				65A0C3861CC94A0D003C3EAB /* PlayerCell.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				6555421D1CC73DA900A0BD7D /* Player.swift in Sources */,
 				655542091CC7086C00A0BD7D /* ViewController.swift in Sources */,
+				65A0C3871CC94A0D003C3EAB /* PlayerCell.swift in Sources */,
 				655542071CC7086C00A0BD7D /* AppDelegate.swift in Sources */,
 				6555421F1CC73DD900A0BD7D /* SampleData.swift in Sources */,
 				6555421B1CC73D5900A0BD7D /* PlayersViewController.swift in Sources */,
@@ -302,6 +306,7 @@
 				655542171CC7086C00A0BD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

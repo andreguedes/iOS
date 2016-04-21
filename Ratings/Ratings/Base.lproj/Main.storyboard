@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" rowHeight="60" id="b32-ca-yfY">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" rowHeight="60" id="b32-ca-yfY" customClass="PlayerCell" customModule="Ratings" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b32-ca-yfY" id="3jd-M0-qzA">
@@ -54,6 +54,11 @@
                                         <constraint firstItem="uFh-fJ-ajm" firstAttribute="leading" secondItem="3jd-M0-qzA" secondAttribute="leadingMargin" constant="20" id="ow0-9o-Wgd"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="gameLabel" destination="Lb0-2y-Ucq" id="eCj-sL-om5"/>
+                                    <outlet property="nameLabel" destination="0L5-MU-fxO" id="iZp-II-YBi"/>
+                                    <outlet property="ratingImageView" destination="vZt-N5-Acy" id="JkB-eS-pnj"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
