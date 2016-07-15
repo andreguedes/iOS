@@ -30,3 +30,33 @@ var intValue:Int = 2
 var doubleValue:Double = 3.2
 
 print("Multiplicacao entre \(intValue) por \(doubleValue) é \(Double(intValue) * doubleValue)")
+
+//Arrays
+var array = [3, 2, 1, 5, 4]
+print(array[2])
+print(array.count)
+
+array.append(10)
+array.removeAtIndex(3)
+print(array)
+
+array.sort()
+
+// Exercise
+var newArray = [1, 2, 3]
+newArray.removeAtIndex(1)
+newArray.append(newArray[0] * newArray[1])
+print("Multiplicacao entre \(newArray[0]) por \(newArray[1]) é \(newArray[2])")
+
+var dictionary = ["computer": "some machine", "coffee": "best drink"]
+print(dictionary["computer"]!)
+print(dictionary.count)
+
+dictionary["pen"] = "Writing tool"
+dictionary.removeValueForKey("coffee")
+print(dictionary)
+
+//Exercise
+var newDictionary = ["pizza": 20.5, "soda": 3.5, "salad": 9.9]
+var totalValue = newDictionary["pizza"]! + newDictionary["soda"]! + newDictionary["salad"]!
+print("The total cost of three items is \(totalValue)")
