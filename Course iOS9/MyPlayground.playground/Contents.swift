@@ -60,3 +60,45 @@ print(dictionary)
 var newDictionary = ["pizza": 20.5, "soda": 3.5, "salad": 9.9]
 var totalValue = newDictionary["pizza"]! + newDictionary["soda"]! + newDictionary["salad"]!
 print("The total cost of three items is \(totalValue)")
+
+//Conditional
+var age = 13
+if age >= 18 {
+    print("You can play!")
+} else {
+    print("Sorry, you're too young!")
+}
+
+name = "Name"
+if name == "Name" {
+    print("Hi \(name) you can play")
+} else {
+    print("Sorry \(name), you cant play!")
+}
+
+if name == "name" && age >= 18 {
+    print("You can play!")
+}
+
+if name == "name" || name == "Nome" {
+    print("Welcome \(name)")
+}
+
+var isOld = true
+if isOld {
+    print("This guy is old")
+}
+
+//Exercise
+var username = "user"
+var password = "pass"
+
+if username == "user" && password == "pass" {
+    print("Welcome")
+} else if username != "user" && password != "pass" {
+    print("Both are wrong!")
+} else if username == "user" {
+    print("Your password is wrong!")
+} else {
+    print("Your username is wrong!")
+}
